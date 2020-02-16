@@ -13,7 +13,11 @@ function akan(){
 
     var dayOfTheWeek = (((CC/4)-2*CC-1)+((5*YY/4))+((26*(MM+1)/10))+DD)%7;
     
-    var dayOfTheWeek = Math.floor(dayOfTheWeek); 
+    var dayOfTheWeek = Math.floor(dayOfTheWeek);
+    
+    var femaleAkan = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+    var maleAkan = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    
 }
 
 
