@@ -38,6 +38,20 @@ function akan(){
         alert("Invalid day! Please enter valid day."); 
     }else if(MM == 11 && DD > 30){                                    //validating November to have 30 days
         alert("Invalid day! Please enter valid day."); 
+    }else if (dayOfTheWeek == 0 && gender === 'male'){
+        document.getElementById("outcome").innerHTML=("Your Akan Name is : " + maleAkan[0] + ".");
+    }else if (dayOfTheWeek == 1 && gender === 'male'){
+        document.getElementById("outcome").innerHTML=("Your Akan Name is : " + maleAkan[1] + ".");
+    }else if (dayOfTheWeek == 2 && gender === 'male'){
+        document.getElementById("outcome").innerHTML=("Your Akan Name is : " + maleAkan[2] + ".");
+    }else if (dayOfTheWeek == 3 && gender === 'male'){
+        document.getElementById("outcome").innerHTML=("Your Akan Name is : " + maleAkan[3] + ".");
+    }else if (dayOfTheWeek == 4 && gender === 'male'){
+        document.getElementById("outcome").innerHTML=("Your Akan Name is : " + maleAkan[4] + ".");
+    }else if (dayOfTheWeek == 5 && gender === 'male'){
+        document.getElementById("outcome").innerHTML=("Your Akan Name is : " + maleAkan[5] + ".");
+    }else if (dayOfTheWeek == 6 && gender === 'male'){
+        document.getElementById("outcome").innerHTML=("Your Akan Name is : " + maleAkan[6] + ".");
     }
 }
 
