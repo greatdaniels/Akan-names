@@ -36,6 +36,8 @@ function akan(){
         alert("Invalid day! Please enter valid day."); 
     }else if(MM == 9 && DD > 30){                                     //validating September to have 30 days
         alert("Invalid day! Please enter valid day."); 
+    }else if(MM == 11 && DD > 30){                                    //validating November to have 30 days
+        alert("Invalid day! Please enter valid day."); 
     }
 }
 
