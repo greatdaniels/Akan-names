@@ -23,6 +23,10 @@ function akan(){
     }else{
         var gender = 'female';
     }
+
+    if (MM < 1 ||MM > 12){                                     //validating the number of months
+        alert("Invalid month! Please enter valid month.");  
+    }
 }
 
 
