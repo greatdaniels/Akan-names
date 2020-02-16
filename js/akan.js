@@ -26,6 +26,8 @@ function akan(){
 
     if (MM < 1 ||MM > 12){                                     //validating the number of months
         alert("Invalid month! Please enter valid month.");  
+    }else if(DD > 31){                                         //validating months with 31 days
+        alert("Invalid day! Please enter valid day.");
     }
 }
 
