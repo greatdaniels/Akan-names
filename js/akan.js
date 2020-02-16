@@ -52,6 +52,22 @@ function akan(){
         document.getElementById("outcome").innerHTML=("Your Akan Name is : " + maleAkan[5] + ".");
     }else if (dayOfTheWeek == 6 && gender === 'male'){
         document.getElementById("outcome").innerHTML=("Your Akan Name is : " + maleAkan[6] + ".");
+    }else if (dayOfTheWeek == 0 && gender === 'female'){
+        document.getElementById("outcome").innerHTML=("Your Akan Name is : " + femaleAkan[0] + ".");
+    }else if (dayOfTheWeek == 1 && gender === 'female'){
+        document.getElementById("outcome").innerHTML=("Your Akan Name is : " + femaleAkan[1] + ".");
+    }else if (dayOfTheWeek == 2 && gender === 'female'){
+        document.getElementById("outcome").innerHTML=("Your Akan Name is : " + femaleAkan[2] + ".");
+    }else if (dayOfTheWeek == 3 && gender === 'female'){
+        document.getElementById("outcome").innerHTML=("Your Akan Name is : " + femaleAkan[3] + ".");
+    }else if (dayOfTheWeek == 4 && gender === 'female'){
+        document.getElementById("outcome").innerHTML=("Your Akan Name is : " + femaleAkan[4] + ".");
+    }else if (dayOfTheWeek == 5 && gender === 'female'){
+        document.getElementById("outcome").innerHTML=("Your Akan Name is : " + femaleAkan[5] + ".");
+    }else if (dayOfTheWeek == 6 && gender === 'female'){
+        document.getElementById("outcome").innerHTML=("Your Akan Name is : " + femaleAkan[6] + ".");
+    }else{
+        document.getElementById("outcome").innerHTML=("Invalid input");
     }
 }
 
