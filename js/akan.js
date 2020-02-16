@@ -32,6 +32,8 @@ function akan(){
         alert("Invalid day! Please enter valid day.");
     }else if(MM == 4 && DD > 30){                                     //validating April to have 30 days
         alert("Invalid day! Please enter valid day."); 
+    }else if(MM == 6 && DD > 30){                                     //validating June to have 30 days
+        alert("Invalid day! Please enter valid day."); 
     }
 }
 
