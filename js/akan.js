@@ -28,6 +28,8 @@ function akan(){
         alert("Invalid month! Please enter valid month.");  
     }else if(DD > 31){                                         //validating months with 31 days
         alert("Invalid day! Please enter valid day.");
+    }else if(MM == 2 && DD>28|| MM == 2 && year % 4 == 0 && DD > 29){ //validating February with 28 days and Leap year Feb with 29 days
+        alert("Invalid day! Please enter valid day.");
     }
 }
 
