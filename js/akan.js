@@ -17,7 +17,12 @@ function akan(){
     
     var femaleAkan = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     var maleAkan = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-    
+
+    if (document.getElementById("gender").checked){
+        var gender = 'male';
+    }else{
+        var gender = 'female';
+    }
 }
 
 
