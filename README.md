@@ -3,6 +3,7 @@
 #### By **Dan Njoroge**
 ## Description
 This is a website that collects user Birth Date information using a form, allows the user to select their gender, and outputs their Ghanaian Akan Name depending on the day of the week they were born.
+Here is a live link to the project: https://greatdaniels.github.io/Akan-names/
 ## Technologies Used
 This project uses HTML and CSS to collect user Birth Dates by the use of a form. It also employs javascript to build the functionality of determining the day one was born based on their Birth Dates. It also uses Bootstrap to style the content.
 ### MIT License
